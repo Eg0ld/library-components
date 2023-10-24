@@ -6,7 +6,7 @@ function App() {
 
     return (
         <div className={styles.App}>
-            <button onClick={() => setCount((count) => count + 1)}>Count: {count}</button>
+            <button onClick={() => setCount((count) => count + 1)}>Counter: {count}</button>
         </div>
     );
 }

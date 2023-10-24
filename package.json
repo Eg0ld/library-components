@@ -1,7 +1,7 @@
 {
-  "name": "library-components",
-  "private": true,
-  "version": "1.0.0",
+  "name": "@elig-wix/codux-library",
+  "private": false,
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -18,9 +18,22 @@
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
     "@vitejs/plugin-react": "^4.1.0",
+    "@wixc3/codux-librarian": "^0.1.4",
     "@wixc3/react-board": "^2.3.0",
     "sass": "^1.69.4",
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
-  }
+  },
+  "description": "<div align=\"center\">  \r     <img height=\"50\" src=\"./src/assets/codux.svg\">  \r     <h1><img height=\"30\" src=\"./src/assets/vite.svg\"> Vite template for Codux</h1>\r </div>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eg0ld/library-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eg0ld/library-components/issues"
+  },
+  "homepage": "https://github.com/Eg0ld/library-components#readme"
 }

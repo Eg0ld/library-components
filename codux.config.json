@@ -18,6 +18,21 @@
       "description": "Run install",
       "command": "npm i",
       "trigger": ["checkout", "pull", "setup"]
+    },
+    "Install Codux Librarian": {
+      "title": "Install Codux Librarian",
+      "description": "Installs the Codux Librarian Dev Dependency",
+      "command": "npm install --save-dev @wixc3/codux-librarian"
+    },
+    "Build Library with Codux Librarian": {
+      "title": "Build Library with Codux Librarian",
+      "description": "Builds the library using Codux Librarian",
+      "command": "npx codux-librarian build"
+    },
+    "Install Codux Librarian & Build My Library": {
+      "title": "Install Codux Librarian & Build My Library",
+      "description": "Install Codux Librarian and build the library to publish to NPM",
+      "run": ["Install Codux Librarian", "Build Library with Codux Librarian"]
     }
   },
   "styling": {

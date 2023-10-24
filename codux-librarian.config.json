@@ -1,0 +1,8 @@
+{
+    "boardsPath": "src/_codux/boards",
+    "buildDir": "package",
+    "libraryName": "My Library",
+    "libraryIcon": "src/assets/icons/icon.jpg",
+    "packageName": "@codux-boards/react-bootstrap",
+    "packageVersion": "0.3.4"
+}

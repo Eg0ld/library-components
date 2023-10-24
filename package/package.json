@@ -1,0 +1,7 @@
+{
+  "name": "@codux-boards/react-bootstrap",
+  "version": "0.3.4",
+  "publishConfig": {
+    "access": "public"
+  }
+}
